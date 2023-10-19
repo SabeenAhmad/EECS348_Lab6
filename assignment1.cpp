@@ -76,7 +76,7 @@ int main() {
 
     float matrixA [100][100];
     float matrixB[100][100];
-    int size = creatingMatrix(matrixA,matrixB);
+    const int size = creatingMatrix(matrixA,matrixB);
     addition(matrixA,matrixB,size);
     multiplication(matrixA,matrixB,size);
     difference(matrixA,matrixB,size);
