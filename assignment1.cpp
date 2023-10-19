@@ -71,6 +71,7 @@ int main() {
         }
         cout << endl;
     }
+    file.close();
     addition(matrixA,matrixB,size);
     multiplication(matrixA,matrixB,size);
     difference(matrixA,matrixB,size);
